@@ -28,49 +28,74 @@ Ensure you have the following installed:
 Install the required libraries using:
 ```bash
 pip install pandas requests beautifulsoup4
+```
 
+---
 
-How to Use
+## How to Use
+
 1. Clone the repository:
-
-git clone https://github.com/sh-reyyah/wikipedia-tables-fetcher.git
-cd wikipedia-tables-fetcher
+   ```bash
+   git clone https://github.com/sh-reyyah/wikipedia-tables-fetcher.git
+   cd wikipedia-tables-fetcher
+   ```
 
 2. Run the application:
+   ```bash
+   python table_fetcher.py
+   ```
 
-python table_fetcher.py
+3. Enter a valid Wikipedia URL in the GUI (e.g., `https://en.wikipedia.org/wiki/Python_(programming_language)`).
 
-3. Enter a valid Wikipedia URL in the GUI (e.g., https://en.wikipedia.org/wiki/Python_(programming_language)).
+4. Click **Load Tables** to fetch data:
+   - View all tables from the page in a new window.
+   - Optionally, save tables as CSV files.
 
-4. Click Load Tables to fetch data:
+5. Fetch and save the introduction text from the page as a `.txt` file.
 
-        View all tables from the page in a new window.
-        Optionally, save tables as CSV files.
+---
 
-5. Fetch and save the introduction text from the page as a .txt file.
+## Example
 
+- **Input**: Wikipedia URL - `https://en.wikipedia.org/wiki/Artificial_intelligence`
+- **Output**:
+  - List of tables displayed in a new window.
+  - Option to save tables as CSV files.
+  - Introduction text saved as a `.txt` file.
 
-Example
+---
 
-- Input: Wikipedia URL - https://en.wikipedia.org/wiki/Artificial_intelligence
+## Project Structure
 
--Output:
-    List of tables displayed in a new window.
-    Option to save tables as CSV files.
-    Introduction text saved as a .txt file.
-
-
-Project Structure
-
+```
 wikipedia-tables-fetcher/
 ├── table_fetcher.py     # Main application script
 └── README.md            # Project documentation
+```
 
-Troubleshooting
-   - Ensure the URL is a valid Wikipedia page starting with https://en.wikipedia.org/wiki/.
-   - If no tables or introduction are found, verify the page content.
+---
 
-Acknowledgments
--Beautiful Soup Documentation
--Pandas Documentation
--Wikipedia for the data source.
+## Troubleshooting
+
+- Ensure the URL is a valid Wikipedia page starting with `https://en.wikipedia.org/wiki/`.
+- If no tables or introduction are found, verify the page content.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Acknowledgments
+
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- Wikipedia for the data source.
+
+---
+
+## Author
+
+Developed by [Shreya Bharati](https://github.com/sh-reyyah).
