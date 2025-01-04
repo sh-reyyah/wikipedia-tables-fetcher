@@ -45,7 +45,7 @@ pip install pandas requests beautifulsoup4
    python table_fetcher.py
    ```
 
-3. Enter a valid Wikipedia URL in the GUI (e.g., `https://en.wikipedia.org/wiki/Python_(programming_language)`).
+3. Enter a valid Wikipedia URL in the GUI (e.g., `https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue`).
 
 4. Click **Load Tables** to fetch data:
    - View all tables from the page in a new window.
