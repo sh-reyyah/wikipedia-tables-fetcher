@@ -57,7 +57,7 @@ pip install pandas requests beautifulsoup4
 
 ## Example
 
-- **Input**: Wikipedia URL - `https://en.wikipedia.org/wiki/Artificial_intelligence`
+- **Input**: Wikipedia URL - `https://en.wikipedia.org/wiki/International_English_Language_Testing_System`
 - **Output**:
   - List of tables displayed in a new window.
   - Option to save tables as CSV files.
